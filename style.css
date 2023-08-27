@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 30px;
+    background-color: #D3D3D3;
+    font-family: Red Hat Display;
+}
+
+#main-container {
+    background-color: white;
+    background-image: url("./images/bg-main-mobile.png");
+    background-position-y: -220px;
+    border-radius: 10px;
+    height: 1420px;
+}
+
+.equalizer-icon {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.top-image {
+    display: none;
+}
+
+.main-heading {
+    margin-top: 20px;
+    margin-left: 5%;
+    line-height: 110%;
+}
+
+.para-text {
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 5%;
+    font-size: 0.9rem;
+}
+
+.phone-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    bottom: 460px;
+    left: 0px;
+}
+
+.black-section {
+    margin-top: 40%;
+    background-color: black;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+.black {
+    width: 80%;
+    margin-left: 40px;
+}
+
+.orange-section {
+    background-color: #FF7342;
+    color: white;
+    position: relative;
+    bottom: 360px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding: 20px;
+}
+
+.orange-para {
+    margin-top: 10px;
+}
+
+.price {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.price-text {
+    margin-left: 15px;
+    padding-top: 9px;
+    font-size: 0.9rem;
+}
+
+.ios-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+}
+
+.ios {
+    padding-right: 5px;
+}
+
+.android-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 61px 10px 64px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.android {
+    padding-right: 10px;
+}
+
+.icon-2, .outro, #social-icons {
+    position: relative;
+    bottom: 320px;
+    margin-left: 15px;
+}
+
+.outro {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.mail {
+    margin-top: 10px;
+}
+
+#social-icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.instagram, .twitter {
+    margin-left: 15px;
+}
+
+@media(min-width: 375px) {
+
+    body {
+        margin: 30px 100px 30px 100px;
+    }
+
+    #main-container {
+        background-image: url("./images/bg-main-desktop.png");
+        height: 1720px;
+    }
+
+    .equalizer-icon {
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    #top-images {
+        display: flex;
+    }
+
+    .top-image {
+        display: block;
+        position: relative;
+        left: 59.9%;
+    }
+
+    .main-heading, .para-text {
+        position: relative;
+        bottom: 370px;
+        margin-right: 50%;
+    }
+
+    .main-heading {
+        font-size: 3.5rem;
+    }
+
+    .para-text {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    .phone-image {
+        width: 20%;
+        margin-left: 0px;
+        bottom: 980px;
+        left: 150px;
+    }
+    
+    .black-section {
+        position: relative;
+        bottom: 120px;
+        margin-top: 0;
+        height: 40%;
+    }
+
+    .black {
+        width: 35%;
+        margin-left: 35%;
+    }
+
+    .orange-section {
+        border-radius: 10px;
+        padding: 40px;
+        width: 20%;
+        bottom: 960px;
+        left: 800px;
+    }
+
+    .icon-2 {
+        position: relative;
+        bottom: 900px;
+    }
+
+    .outro-container {
+        display: flex;
+        position: relative;
+        bottom: 600px;
+    }
+
+    #social-icons {
+        margin-left: 40%;
+    }
+}
